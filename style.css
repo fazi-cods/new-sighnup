@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.mainfirst {
+    color: white;
+    align-items: center;
+    /* text-align: center; */
+    background-color: rgb(15, 0, 126);
+    width: 620px;
+    height: 1000px;
+}
+
+img {
+    width: 419px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.item {
+    padding-left: 130px;
+    padding-top: 50px;
+    color: rgb(0, 170, 255);
+    gap: 10px;
+    border: none;
+}
+
+p a {
+    color: white;
+    padding-left: 53%;
+    padding-top: 10%;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    height: 48.84px;
+    width: 350px;
+    background-color: #0F2D6B;
+    color: #9B9B9B;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 28%;
+    width: 350px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: #1A4FBA;
+    cursor: pointer;
+}
+
+.for {
+    color: white;
+    margin-left: 55%;
+    margin-top: 10px;
+    background-color: rgb(15, 0, 126);
+}
+
+.mainicons {
+    margin-left: 10%;
+    padding-bottom: 5px;
+    margin-bottom: -50px;
+}
+
+
+#new {
+    background-color: rgb(15, 0, 126);
+}
+
+.icons {
+    width: 350px;
+    height: 50px;
+    margin-bottom: -40px;
+    background-color: #0F2D6B;
+}
+
+.images img {
+    width: 200px;
+}
+
+.iconss {
+    width: 350px;
+    height: 50px;
+    margin-bottom: -40px;
+    background-color: #0F2D6B;
+
+}
+
+.iconsss {
+    width: 350px;
+    height: 50px;
+    margin-bottom: -40px;
+    background-color: #0F2D6B;
+
+}
+
+.cfor {
+    width: 61%;
+    margin-top: 0%;
+    position: absolute;
+    top: 0%;
+    margin-left: 40.3%;
+    height: 1000px;
+}
+#unique{
+    color: gray;
+}
+.maindivv {
+    display: inline-block;
+    /* background-color: #1A4FBA; */
+}
+
+.googles {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 233px;
+    position: relative;
+    top: -90px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 375px){
+    .mainfirst{
+        height: 1060px;
+    }
+    .cfor{
+        display: none;
+    }
+}
+@media only screen and (max-width: 415px){
+
+    .mainfirst{
+        height: 1060px;
+    }
+    .cfor{
+        display: none;
+    }
+}
+@media only screen and (max-width: 430px){
+    .cfor{
+        display: none;
+    }
+    .googles{
+        position: relative;
+        right: 70px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .mainfirst{
+        width: 770px;
+    }
+    .cfor{
+        display: none;
+    }
+    .item{
+        margin-left: 60px;
+    }
+    .googles{
+        position: relative;
+        right: -40px;
+    }
+    .for{
+        position: relative;
+        background-color: none;
+        left: -40px;
+    }
+}
+@media only screen and (max-width: 821px){
+    .mainfirst{
+        width: 820px;
+    }
+    .cfor{
+        display: none;
+    }
+        .item{
+        margin-left: 70px;
+    }
+        .for{
+        position: relative;
+        background-color: none;
+        left: -60px;
+    }
+        .googles{
+        position: relative;
+        right: -40px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .mainfirst{
+    }
+    .cfor{
+        position: absolute;
+        width: 450px;
+        right: 0px;
+    }
+        .item{
+        margin-left: 70px;
+    }
+        .for{
+        position: relative;
+        background-color: none;
+        left: -60px;
+    }
+        .googles{
+        position: relative;
+        right: -40px;
+    }
+}
+@media only screen and (max-width: 854px){
+    .mainfirst{
+    }
+    .cfor{
+        position: absolute;
+        width: 250px;
+        right: 0px;
+    }
+        .item{
+        margin-left: 70px;
+    }
+        .for{
+        position: relative;
+        background-color: none;
+        left: -60px;
+    }
+        .googles{
+        position: relative;
+        right: -40px;
+    }
+}
